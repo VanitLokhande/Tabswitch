@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TabSwitch</title>
+    <style>
+        
+        .p-container{
+            width: 800px;
+          
+            height: 600px;
+            
+        }
+        .btncontainer button{
+            border: none;
+            outline: none;
+            width: 140px;
+            height: 30px;
+            cursor: pointer;
+        }
+        .btncontainer button.active{
+            background-color: brown;
+        }
+
+        .tabs{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="btncontainer">
+        <button class="tablinks" data-tab="tab-1">Tab-1</button>
+        <button class="tablinks" data-tab="tab-2">Tab-2</button>
+        <button class="tablinks" data-tab="tab-3">Tab-3</button>
+        <button class="tablinks" data-tab="tab-4">Tab-4</button>
+    </div>
+    <div class="p-container">
+        <div id="tab-1" class="tabs">
+            <h1>tab-1</h1>
+            <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic officiis soluta nulla commodi veritatis aliquam animi dignissimos excepturi. Unde harum eligendi laboriosam repellat ipsam dolores nihil amet quaerat dicta laudantium!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nam ab ratione distinctio consectetur libero totam asperiores non. Temporibus veritatis sapiente doloribus quis soluta vitae totam quo iusto nam eveniet?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic officiis soluta nulla commodi veritatis aliquam animi dignissimos excepturi. Unde harum eligendi laboriosam repellat ipsam dolores nihil amet quaerat dicta laudantium!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nam ab ratione distinctio consectetur libero totam asperiores non. Temporibus veritatis sapiente doloribus quis soluta vitae totam quo iusto nam eveniet?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?</p>
+        </div>
+        <div id="tab-2" class="tabs">
+            <h1>tab-2</h1>
+            <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic officiis soluta nulla commodi veritatis aliquam animi dignissimos excepturi. Unde harum eligendi laboriosam repellat ipsam dolores nihil amet quaerat dicta laudantium!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nam ab ratione distinctio consectetur libero totam asperiores non. Temporibus veritatis sapiente doloribus quis soluta vitae totam quo iusto nam eveniet?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?</p>
+        </div>
+        <div id="tab-3" class="tabs">
+            <h1>tab-3</h1>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae adipisci fugit natus omnis, nobis in minima autem ex non placeat! Quisquam velit eum animi fugit hic nam ea magni et?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eum blanditiis fugit, id odio alias doloremque totam tempore, quia, ipsum voluptate rem vitae dicta dolorum labore quod. Illo, adipisci exercitationem?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic officiis soluta nulla commodi veritatis aliquam animi dignissimos excepturi. Unde harum eligendi laboriosam repellat ipsam dolores nihil amet quaerat dicta laudantium!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nam ab ratione distinctio consectetur libero totam asperiores non. Temporibus veritatis sapiente doloribus quis soluta vitae totam quo iusto nam eveniet?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?</p>
+        </div>
+        <div id="tab-4" class="tabs">
+            <h1>tab-4</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere sint ullam, id rem veniam repudiandae, accusantium odit maiores, dolore quos fugiat? Totam ea ullam maxime voluptates earum atque nostrum!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo pariatur voluptatibus sit facere velit magnam nobis neque expedita! Tempore alias nisi suscipit inventore commodi quos quasi reprehenderit amet assumenda porro?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic officiis soluta nulla commodi veritatis aliquam animi dignissimos excepturi. Unde harum eligendi laboriosam repellat ipsam dolores nihil amet quaerat dicta laudantium!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nam ab ratione distinctio consectetur libero totam asperiores non. Temporibus veritatis sapiente doloribus quis soluta vitae totam quo iusto nam eveniet?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt amet illum sed iusto, in fuga, sequi pariatur nobis vero magni eligendi quaerat repellendus excepturi ad quibusdam. Quos quae dolor eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea temporibus distinctio amet repellendus quod facilis necessitatibus illum voluptatibus magni odio ipsa, ratione veritatis? Vel tempora ipsa temporibus at obcaecati?</p>
+
+        </div>
+        
+        
+    </div>
+    
+</body>
+<script>
+    const tablinks= document.querySelectorAll(".tablinks");
+    console.log(tablinks);
+
+    for(let i=0;i<tablinks.length;i++){
+        tablinks[i].addEventListener('click',function(){
+
+            var tabname= this.dataset.tab;
+            console.log(tabname);
+            var tabcontent = document.getElementById(tabname);
+            console.log(tabcontent);
+
+            var alld= document.querySelectorAll(".tabs");
+            for(let j=0;j<alld.length;j++){
+                alld[j].style.display="none"
+            }
+
+            var tablinkss= document.querySelectorAll(".tablinks");
+            for(let k=0;k<tablinkss.length;k++){
+                tablinkss[k].classList.remove('active');
+            }
+
+            tabcontent.style.display = "block";
+            this.classList.add('active');
+
+        })
+    }
+
+    document.querySelector('.tablinks').click();
+
+</script>
+</html>
